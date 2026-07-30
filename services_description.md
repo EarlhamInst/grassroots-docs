@@ -573,4 +573,6 @@ The response from the server contains various sections as in the example below
 ```
 
 
+The parameters for the service are described in the `services.operation.parameter_set` section.
+
 
