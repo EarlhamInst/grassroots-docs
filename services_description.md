@@ -572,7 +572,37 @@ The response from the server contains various sections as in the example below
 }
 ```
 
+## Parameter Set
 
 The parameters for the service are described in the `services.operation.parameter_set` section.
 
+### Level
+
+The initial key is `level` which specifies the default _parameter level_ for each of the parameters if one is not explicitly specified. This level allows user to choose different sets of parameters dependent on their expertise. The levels are
+
+  * **all**:
+  * **advanced**: 
+  * **simple**: 
+  * **wizard**:
+
+### Parameters
+
+The parameters are specified in the array given by the `parameters` key. This contains an array of objects where each one gives the details for a single parameter.
+
+
+The keys for each parameter are
+
+ * **param**: The internal name of the parameter. This is used by the system and is not a user-friendly name
+ * **default_value**:
+ * **current_value**:
+ * **min**:
+ * **max**:
+ * **group**:
+ * **type**:
+ * **grassroots_type**:
+ * **level**:
+ * **so:description**:
+ * **so:name**:
+ * **read_only**:
+ * **refresh**:
 
