@@ -77,17 +77,17 @@ sudo apt-get install libexpat1-dev
 
 Now we are going to need the required Apache components
 
- * [httpd](https://dlcdn.apache.org/httpd/httpd-2.4.57.tar.gz) 
- * [apr](https://dlcdn.apache.org//apr/apr-1.7.4.tar.gz)
- * [apr-util](https://dlcdn.apache.org//apr/apr-util-1.6.3.tar.gz)
+ * [httpd](https://archive.apache.org/dist/httpd/httpd-2.4.57.tar.gz) 
+ * [apr](https://archive.apache.org/dist/apr/apr-1.7.4.tar.gz)
+ * [apr-util](https://archive.apache.org/dist/apr/apr-util-1.6.3.tar.gz)
 
 These can be downloaded and unpacked using the following commands
 
 ```
 cd Downloads/
-wget https://dlcdn.apache.org/httpd/httpd-2.4.57.tar.gz
-wget https://dlcdn.apache.org//apr/apr-1.7.4.tar.gz
-wget https://dlcdn.apache.org//apr/apr-util-1.6.3.tar.gz
+wget https://archive.apache.org/dist/httpd/httpd-2.4.57.tar.gz
+wget https://archive.apache.org/dist/apr/apr-1.7.4.tar.gz
+wget https://archive.apache.org/dist/apr/apr-util-1.6.3.tar.gz
 tar zxf apr-util-1.6.3.tar.gz 
 tar zxf apr-1.7.4.tar.gz 
 tar zxf httpd-2.4.57.tar.gz 
